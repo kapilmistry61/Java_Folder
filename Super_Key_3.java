@@ -4,7 +4,6 @@ class Animal{
 		System.out.println("Animal");
 	}
 }
-
 public class Dog extends Animal{
 	Dog()
 	{
@@ -15,5 +14,4 @@ public class Dog extends Animal{
 		Dog s1=new Dog();
 	}
 }
-
 //note: call to super must be first statement in constructor
