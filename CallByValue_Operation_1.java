@@ -8,8 +8,8 @@ public class Operation{
 	public static void main(String args[])
 	{
 		Operation obj=new Operation();
-		System.out.println(obj.data);
+		System.out.println("before change"+obj.data);
 		obj.change(obj); //passing object
-		System.out.println(obj.data);
+		System.out.println("after change"+obj.data);
 	}
 }
