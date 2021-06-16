@@ -13,6 +13,7 @@ public class Operation{
 		System.out.println("after change"+obj.data);
 	}
 }
-//output:
-50
-550
+/*output:
+before change 50
+after change 550
+*/
