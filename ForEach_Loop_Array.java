@@ -9,3 +9,4 @@ public class ForEach_Loop_Array{
 		}
 	}
 }
+//print element one by one (work on element base)
