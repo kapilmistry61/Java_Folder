@@ -24,7 +24,7 @@ public class HashSetExample{
 		}
 	}
 }
-/*output:
+/*output:  in any random order
 null
 jussy
 akon
