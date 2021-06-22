@@ -21,7 +21,7 @@ public class TreeSetExample{
 		}
 	}
 }
-/*output:
+/*output: in ascending order
 akon
 amenda
 carry
