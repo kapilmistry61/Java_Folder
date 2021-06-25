@@ -59,3 +59,14 @@ class Test{
 		}
 	}
 }
+
+/* output:
+sorting by age
+111 carry 14
+141 jack 21
+121 amenda 34
+sorting by name
+121 amenda 34
+111 carry 14
+141 jack 21
+*/
