@@ -12,7 +12,6 @@ class A{
                 }
                 System.out.print(i);
             }
-
             //printing middle part 
             for(int k=i-1; k<=7; k++)
             {
@@ -22,7 +21,6 @@ class A{
                 }
                 System.out.print("  ");
             }
-
             //printing right part 
             for(int m=i; m>=1; m--)
             {
@@ -32,7 +30,6 @@ class A{
                 }
                 System.out.print(i);
             }
-
             if(i != 6)
             System.out.println();
         }
