@@ -6,7 +6,7 @@ class A{
     int n=insert.nextInt();
     System.out.print("factor number of "+n+" is = "+n);
     
-    for(int i=2; i<=24; i++)
+    for(int i=2; i<=1000; i++)
     {
     if(n%i==0)
     {
