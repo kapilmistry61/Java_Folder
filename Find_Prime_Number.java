@@ -1,34 +1,34 @@
 import java.util.Scanner;
 class A{
   public static void main(String[] args) {
-    System.out.println("enter number");
+    System.out.println("enter number ");
     Scanner insert=new Scanner(System.in);
     int num=insert.nextInt();
 
-    System.out.print(num+" is");
-    //first finding factor numbers of given number
+    if(num == 1)
+    {
+      System.out.println(num+ " is prime");
+    }
+
     if(num > 1)
     {
-      for(int i=2; i<=1000; i++)
+      for(int i=2; i<=num; i++)
     {
-    if(num%i==0)
-    {
-      int data=num/i;
-      if(data > 1)
+      if(num%i == 0 )
       {
-        System.out.println(" not prime number");
-        break;
-      }else
-      {
-        System.out.println(" prime number");
-        break;
+        int data=i;
+
+        if(data < num)
+        {
+          System.out.println(num+" is not prime");
+          break;
+        }else
+        {
+          System.out.println(num+" is prime");
+        }
       }
-    } 
-    }
-    }
-    if(num <= 1)
-    {
-      System.out.println(" not prime number");
+     }
     }
   }
+}
 }
